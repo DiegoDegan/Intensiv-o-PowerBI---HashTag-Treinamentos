@@ -2,8 +2,6 @@
 
 Repositório com os dashboards desenvolvidos ao longo das 4 aulas do Intensivão de Power BI da Hashtag Treinamentos, partindo do zero até a construção de painéis de vendas mais completos.
 
-> Status: em andamento – atualmente documentada as **Aula 1, 2 e 3**. A seção da Aula 4 ainda será preenchidas.
-
 ---
 
 ## Objetivo do projeto
@@ -29,7 +27,9 @@ Repositório com os dashboards desenvolvidos ao longo das 4 aulas do Intensivão
   - `baseFuncionarios.xlsx` (base de exemplo da aula)
   - `img-dashboard3.png` (print do dashboard)
 - `aula-4/`  
-  - (arquivos da quarta aula – a definir)
+  - `Aula 4 - Dashboard Financeiro.pbix`
+  - `Base de Dados - Financeiro.xlsx` (base de exemplo da aula)
+  - `img-dashboard4.png` (print do dashboard)
 
 > Observação: os nomes dos arquivos e pastas podem ser ajustados conforme o andamento das aulas, mantendo a mesma ideia de separar cada aula em seu próprio diretório.
 
@@ -40,8 +40,6 @@ Repositório com os dashboards desenvolvidos ao longo das 4 aulas do Intensivão
 1. Baixe o arquivo `.pbix` da pasta da aula desejada.  
 2. Abra com o **Power BI Desktop** (versão mais recente).  
 3. Se necessário, aponte a conexão de dados para o arquivo Excel correspondente (mantendo mesma estrutura de colunas).  
-
-No futuro, alguns dashboards podem ser publicados também via URL (Power BI Service) e os links serão adicionados nas seções de cada aula.
 
 ---
 
@@ -123,6 +121,40 @@ Nesta aula, o foco foi o desenvolvimento de um Dashboard de Recursos Humanos (Pe
 
 ## Imagem do dashboard – Aula 3
 <img width="694" height="390" alt="img-dashboard3" src="Aula 3/img-dashboard3.png" />
+
+## Aula 4 – Dashboard Financeiro do Zero
+
+A última aula do curso foi dedicada à criação de um Dashboard Financeiro completo, focado em análise de fluxo de caixa, rentabilidade e performance bancária.
+
+### Conteúdo trabalhado
+
+- **Tratamento de Dados Financeiros:**
+  - Importação e consolidação de bases de receitas e despesas no **Power Query**.
+  - Ajustes de categorias financeiras e tratamento de datas.
+- **Análises e Fórmulas DAX:**
+  - Criação de medidas para **Receita Total**, **Despesas**, **Impostos** e **Lucro Líquido**.
+  - Cálculo de **Margem de Lucro (%)**.
+  - Análise comparativa de movimentações entre diferentes instituições bancárias.
+- **Visualizações e Storytelling:**
+  - **Gráfico Scroller:** Implementação de uma barra de indicadores animada para monitoramento em tempo real.
+  - **Gráficos de Área e Linhas:** Acompanhamento da evolução histórica do lucro e fluxo de caixa.
+  - **Storytelling:** Organização do layout para facilitar a leitura rápida de KPIs financeiros.
+
+### Imagem do dashboard – Aula 4
+
+<img width="694" height="390" alt="img-dashboard4" src="aula-4/img-dashboard4.png" />
+
+---
+
+## Conclusão
+
+A conclusão deste intensivo permitiu consolidar conhecimentos fundamentais de Business Intelligence, desde o tratamento de dados brutos (ETL) até a criação de dashboards estratégicos para cada setor. O projeto reforça a importância da visualização de dados para a tomada de decisão assertiva no ambiente corporativo.
+
+## Próximos Passos
+
+Como estudante de Data Science, o próximo objetivo para este repositório será:
+- **Análise com Python:** Utilizar as bases de dados `.xlsx` disponibilizadas nas aulas para realizar análises exploratórias (EDA) utilizando bibliotecas como **Pandas**, **Matplotlib** e **Seaborn**.
+- **Comparação de Ferramentas:** Validar os insights gerados no Power BI através de scripts em Python, unindo o poder da visualização com a profundidade da análise estatística.
 
 
 ```markdown
