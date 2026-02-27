@@ -2,7 +2,7 @@
 
 Repositório com os dashboards desenvolvidos ao longo das 4 aulas do Intensivão de Power BI da Hashtag Treinamentos, partindo do zero até a construção de painéis de vendas mais completos.
 
-> Status: em andamento – atualmente documentada as **Aula 1 e 2**. As seções das Aulas 3 e 4 serão preenchidas conforme forem avançando.
+> Status: em andamento – atualmente documentada as **Aula 1, 2 e 3**. A seção da Aula 4 ainda será preenchidas.
 
 ---
 
@@ -24,8 +24,10 @@ Repositório com os dashboards desenvolvidos ao longo das 4 aulas do Intensivão
   - `Aula 2 - Dashboard de Produção.pbix` 
   - `baseProdução.xlsx` (base de exemplo da aula)
   - `img-dashboard2.png` (print do dashboard)
-- `aula-3/`  
-  - (arquivos da terceira aula – a definir)  
+- `aula-3/`
+  - `Aula 3 - Dashboard de RH.pbix` 
+  - `baseFuncionarios.xlsx` (base de exemplo da aula)
+  - `img-dashboard3.png` (print do dashboard)
 - `aula-4/`  
   - (arquivos da quarta aula – a definir)
 
@@ -67,13 +69,15 @@ Primeira aula focada em sair do zero até um dashboard de vendas interativo.
 
 ### Imagem do dashboard – Aula 1
 
-<img width="694" height="390" alt="img-dashboard1" src="https://github.com/user-attachments/assets/ae88fb28-ec3e-49fb-ae02-286f065f3ea8" />
+<img width="694" height="390" alt="img-dashboard1" src="Aula 1/img-dashboard1.png" />
 
-##Aula 2 – Dashboard de Produção do Zero
+---
+
+## Aula 2 – Dashboard de Produção do Zero
 
 Nesta aula, o foco foi a criação de um Dashboard de Produção, explorando novas métricas e visualizações de eficiência e produtividade.
 
-###Conteúdo trabalhado
+### Conteúdo trabalhado
 
 - Importação e Tratamento de Dados:
   - Importação da base de produção (baseProdução.xlsx).
@@ -90,9 +94,36 @@ Nesta aula, o foco foi a criação de um Dashboard de Produção, explorando nov
   - Aplicação de temas e cores para um dashboard industrial/profissional.
   - Configuração de filtros interativos para análise por período e setor.
 
-###Imagem do dashboard – Aula 2
+### Imagem do dashboard – Aula 2
 
-<img width="694" height="390" alt="img-dashboard2" src="https://github.com/user-attachments/assets/432874b0-e4c5-45e7-a6be-1b39027ac0ee" />
+<img width="694" height="390" alt="img-dashboard2" src="Aula 2/img-dashboard2.png" />
+
+---
+
+## Aula 3 – Dashboard de RH do Zero
+
+Nesta aula, o foco foi o desenvolvimento de um Dashboard de Recursos Humanos (People Analytics), focado em indicadores de contratação, retenção e perfil dos colaboradores.
+
+### Conteúdo trabalhado
+
+- Importação e Modelagem de Dados:
+  - Importação de bases de RH (Base de Dados - RH.xlsx).
+  - Tratamento de dados no Power Query para garantir a integridade das informações de funcionários.
+- Métricas de People Analytics (DAX):
+ - Cálculo de Total de Funcionários, Contratações e Desligamentos.
+ - Desenvolvimento do cálculo de Turnover (Rotatividade).
+ - Análise de Salarial Médio e distribuição por departamento.
+- Construção do Relatório e Visuais Avançados:
+ - Cartões de KPI: Exibição clara do Headcount e taxa de Turnover.
+ - Gráfico de Árvore de Decomposição: Para análise detalhada (drill-down) dos motivos de saída ou distribuição por área.
+ - Gráficos de Rosca/Pizza: Perfil demográfico e diversidade.
+- Recursos de Experiência do Usuário (UX):
+ - Tooltips (Dicas de Ferramenta): Criação de janelas flutuantes personalizadas para detalhar dados ao passar o mouse.
+ - Configuração de botões de navegação e filtros por status (Ativo/Inativo).
+
+## Imagem do dashboard – Aula 3
+<img width="694" height="390" alt="img-dashboard3" src="Aula 3/img-dashboard3.png" />
+
 
 ```markdown
 
