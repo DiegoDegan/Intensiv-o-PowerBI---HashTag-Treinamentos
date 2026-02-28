@@ -142,7 +142,7 @@ A última aula do curso foi dedicada à criação de um Dashboard Financeiro com
 
 ### Imagem do dashboard – Aula 4
 
-<img width="694" height="390" alt="img-dashboard4" src="aula-4/img-dashboard4.png" />
+<img width="694" height="390" alt="img-dashboard4" src="Aula 4/img-dashboard4.png" />
 
 ---
 
